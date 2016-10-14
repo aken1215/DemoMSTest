@@ -60,6 +60,33 @@
       <Name>DemoMSTest</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\content\web.config.install.xdt" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\content\web.config.uninstall.xdt" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0.nupkg" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\tools\init.ps1" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\tools\uninstall.ps1" />
+    <None Include="packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" />
+    <None Include="packages\Microsoft.Net.Compilers.1.0.0\Microsoft.Net.Compilers.1.0.0.nupkg" />
+    <None Include="packages\Microsoft.Net.Compilers.1.0.0\ThirdPartyNotices.rtf" />
+    <None Include="packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CSharp.Core.targets" />
+    <None Include="packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.VisualBasic.Core.targets" />
+    <None Include="packages\Microsoft.Net.Compilers.1.0.0\tools\VBCSCompiler.exe.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\csc.exe" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.dll" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\System.Collections.Immutable.dll" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\System.Reflection.Metadata.dll" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\vbc.exe" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\VBCSCompiler.exe" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
